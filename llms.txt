@@ -1,0 +1,26 @@
+# NeoBrutal Rivet
+
+> NeoBrutal Rivet is a public-alpha neo-brutalist React UI design system for humans and coding agents. It provides 61 component contracts, live previews, semantic CSS tokens, light/dark/system themes, accessibility guidance, and an agent-readable registry.
+
+## Start here
+- [Homepage](https://neobrutalrivet.github.io/): Overview of the neobrutalism UI design system, visual language, themes, components, and LLM workflow.
+- [Component docs](https://neobrutalrivet.github.io/components/): Search and browse all 61 documented UI component contracts.
+- [GitHub source](https://github.com/NeoBrutalRivet/NeoBrutal-Rivet): Canonical source repository.
+- [Registry](https://github.com/NeoBrutalRivet/NeoBrutal-Rivet/blob/main/registry/manifest.json): Machine-readable component inventory and data-slot contracts.
+- [LLM guide](https://github.com/NeoBrutalRivet/NeoBrutal-Rivet/blob/main/docs/LLM-GUIDE.md): Discover-before-invent workflow for coding agents.
+- [AGENTS.md](https://github.com/NeoBrutalRivet/NeoBrutal-Rivet/blob/main/AGENTS.md): Project rules for agents working with Rivet.
+
+## Representative component docs
+- [Button](https://neobrutalrivet.github.io/components/button/): Buttons and action styling.
+- [Input](https://neobrutalrivet.github.io/components/input/): Text input contract and guidance.
+- [Dialog](https://neobrutalrivet.github.io/components/dialog/): Modal dialog contract and accessibility guidance.
+- [Sidebar](https://neobrutalrivet.github.io/components/sidebar/): Application navigation sidebar contract.
+- [Combobox](https://neobrutalrivet.github.io/components/combobox/): Searchable selection component contract.
+- [Table](https://neobrutalrivet.github.io/components/table/): Tabular content contract.
+
+## Project vocabulary
+- Primary topics: neo-brutalism UI, neobrutalism design system, React UI components, design tokens, dark mode, accessible component patterns, LLM-readable UI registry.
+- Product name: NeoBrutal Rivet.
+- Identifier: neobrutal-rivet.
+- Status: public alpha.
+- Tagline: Designed for humans. Structured for machines.

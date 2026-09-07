@@ -1,0 +1,94 @@
+# NeoBrutal Rivet
+
+> NeoBrutal Rivet is a public-alpha neo-brutalist React UI design system for humans and coding agents. It provides 61 component contracts, live previews, semantic CSS tokens, light/dark/system themes, accessibility guidance, and an agent-readable registry.
+
+## Start here
+- [Homepage](https://neobrutalrivet.github.io/): Overview of the neobrutalism UI design system, visual language, themes, components, and LLM workflow.
+- [Component docs](https://neobrutalrivet.github.io/components/): Search and browse all 61 documented UI component contracts.
+- [GitHub source](https://github.com/NeoBrutalRivet/NeoBrutal-Rivet): Canonical source repository.
+- [Registry](https://github.com/NeoBrutalRivet/NeoBrutal-Rivet/blob/main/registry/manifest.json): Machine-readable component inventory and data-slot contracts.
+- [LLM guide](https://github.com/NeoBrutalRivet/NeoBrutal-Rivet/blob/main/docs/LLM-GUIDE.md): Discover-before-invent workflow for coding agents.
+- [AGENTS.md](https://github.com/NeoBrutalRivet/NeoBrutal-Rivet/blob/main/AGENTS.md): Project rules for agents working with Rivet.
+
+## Representative component docs
+- [Button](https://neobrutalrivet.github.io/components/button/): Buttons and action styling.
+- [Input](https://neobrutalrivet.github.io/components/input/): Text input contract and guidance.
+- [Dialog](https://neobrutalrivet.github.io/components/dialog/): Modal dialog contract and accessibility guidance.
+- [Sidebar](https://neobrutalrivet.github.io/components/sidebar/): Application navigation sidebar contract.
+- [Combobox](https://neobrutalrivet.github.io/components/combobox/): Searchable selection component contract.
+- [Table](https://neobrutalrivet.github.io/components/table/): Tabular content contract.
+
+## Project vocabulary
+- Primary topics: neo-brutalism UI, neobrutalism design system, React UI components, design tokens, dark mode, accessible component patterns, LLM-readable UI registry.
+- Product name: NeoBrutal Rivet.
+- Identifier: neobrutal-rivet.
+- Status: public alpha.
+- Tagline: Designed for humans. Structured for machines.
+
+## All component documentation
+- [Accordion](https://neobrutalrivet.github.io/components/accordion/): NeoBrutal Rivet Accordion component preview, contract, accessibility, and LLM guidance.
+- [Alert Dialog](https://neobrutalrivet.github.io/components/alert-dialog/): NeoBrutal Rivet Alert Dialog component preview, contract, accessibility, and LLM guidance.
+- [Alert](https://neobrutalrivet.github.io/components/alert/): NeoBrutal Rivet Alert component preview, contract, accessibility, and LLM guidance.
+- [Aspect Ratio](https://neobrutalrivet.github.io/components/aspect-ratio/): NeoBrutal Rivet Aspect Ratio component preview, contract, accessibility, and LLM guidance.
+- [Attachment](https://neobrutalrivet.github.io/components/attachment/): NeoBrutal Rivet Attachment component preview, contract, accessibility, and LLM guidance.
+- [Avatar](https://neobrutalrivet.github.io/components/avatar/): NeoBrutal Rivet Avatar component preview, contract, accessibility, and LLM guidance.
+- [Badge](https://neobrutalrivet.github.io/components/badge/): NeoBrutal Rivet Badge component preview, contract, accessibility, and LLM guidance.
+- [Breadcrumb](https://neobrutalrivet.github.io/components/breadcrumb/): NeoBrutal Rivet Breadcrumb component preview, contract, accessibility, and LLM guidance.
+- [Bubble](https://neobrutalrivet.github.io/components/bubble/): NeoBrutal Rivet Bubble component preview, contract, accessibility, and LLM guidance.
+- [Button Group](https://neobrutalrivet.github.io/components/button-group/): NeoBrutal Rivet Button Group component preview, contract, accessibility, and LLM guidance.
+- [Button](https://neobrutalrivet.github.io/components/button/): NeoBrutal Rivet Button component preview, contract, accessibility, and LLM guidance.
+- [Calendar](https://neobrutalrivet.github.io/components/calendar/): NeoBrutal Rivet Calendar component preview, contract, accessibility, and LLM guidance.
+- [Card](https://neobrutalrivet.github.io/components/card/): NeoBrutal Rivet Card component preview, contract, accessibility, and LLM guidance.
+- [Carousel](https://neobrutalrivet.github.io/components/carousel/): NeoBrutal Rivet Carousel component preview, contract, accessibility, and LLM guidance.
+- [Chart](https://neobrutalrivet.github.io/components/chart/): NeoBrutal Rivet Chart component preview, contract, accessibility, and LLM guidance.
+- [Checkbox](https://neobrutalrivet.github.io/components/checkbox/): NeoBrutal Rivet Checkbox component preview, contract, accessibility, and LLM guidance.
+- [Collapsible](https://neobrutalrivet.github.io/components/collapsible/): NeoBrutal Rivet Collapsible component preview, contract, accessibility, and LLM guidance.
+- [Combobox](https://neobrutalrivet.github.io/components/combobox/): NeoBrutal Rivet Combobox component preview, contract, accessibility, and LLM guidance.
+- [Command](https://neobrutalrivet.github.io/components/command/): NeoBrutal Rivet Command component preview, contract, accessibility, and LLM guidance.
+- [Context Menu](https://neobrutalrivet.github.io/components/context-menu/): NeoBrutal Rivet Context Menu component preview, contract, accessibility, and LLM guidance.
+- [Dialog](https://neobrutalrivet.github.io/components/dialog/): NeoBrutal Rivet Dialog component preview, contract, accessibility, and LLM guidance.
+- [Direction](https://neobrutalrivet.github.io/components/direction/): NeoBrutal Rivet Direction component preview, contract, accessibility, and LLM guidance.
+- [Drawer](https://neobrutalrivet.github.io/components/drawer/): NeoBrutal Rivet Drawer component preview, contract, accessibility, and LLM guidance.
+- [Dropdown Menu](https://neobrutalrivet.github.io/components/dropdown-menu/): NeoBrutal Rivet Dropdown Menu component preview, contract, accessibility, and LLM guidance.
+- [Empty](https://neobrutalrivet.github.io/components/empty/): NeoBrutal Rivet Empty component preview, contract, accessibility, and LLM guidance.
+- [Field](https://neobrutalrivet.github.io/components/field/): NeoBrutal Rivet Field component preview, contract, accessibility, and LLM guidance.
+- [Form](https://neobrutalrivet.github.io/components/form/): NeoBrutal Rivet Form component preview, contract, accessibility, and LLM guidance.
+- [Hover Card](https://neobrutalrivet.github.io/components/hover-card/): NeoBrutal Rivet Hover Card component preview, contract, accessibility, and LLM guidance.
+- [Input Group](https://neobrutalrivet.github.io/components/input-group/): NeoBrutal Rivet Input Group component preview, contract, accessibility, and LLM guidance.
+- [Input Otp](https://neobrutalrivet.github.io/components/input-otp/): NeoBrutal Rivet Input Otp component preview, contract, accessibility, and LLM guidance.
+- [Input](https://neobrutalrivet.github.io/components/input/): NeoBrutal Rivet Input component preview, contract, accessibility, and LLM guidance.
+- [Item](https://neobrutalrivet.github.io/components/item/): NeoBrutal Rivet Item component preview, contract, accessibility, and LLM guidance.
+- [Kbd](https://neobrutalrivet.github.io/components/kbd/): NeoBrutal Rivet Kbd component preview, contract, accessibility, and LLM guidance.
+- [Label](https://neobrutalrivet.github.io/components/label/): NeoBrutal Rivet Label component preview, contract, accessibility, and LLM guidance.
+- [Marker](https://neobrutalrivet.github.io/components/marker/): NeoBrutal Rivet Marker component preview, contract, accessibility, and LLM guidance.
+- [Menubar](https://neobrutalrivet.github.io/components/menubar/): NeoBrutal Rivet Menubar component preview, contract, accessibility, and LLM guidance.
+- [Message Scroller](https://neobrutalrivet.github.io/components/message-scroller/): NeoBrutal Rivet Message Scroller component preview, contract, accessibility, and LLM guidance.
+- [Message](https://neobrutalrivet.github.io/components/message/): NeoBrutal Rivet Message component preview, contract, accessibility, and LLM guidance.
+- [Native Select](https://neobrutalrivet.github.io/components/native-select/): NeoBrutal Rivet Native Select component preview, contract, accessibility, and LLM guidance.
+- [Navigation Menu](https://neobrutalrivet.github.io/components/navigation-menu/): NeoBrutal Rivet Navigation Menu component preview, contract, accessibility, and LLM guidance.
+- [Pagination](https://neobrutalrivet.github.io/components/pagination/): NeoBrutal Rivet Pagination component preview, contract, accessibility, and LLM guidance.
+- [Popover](https://neobrutalrivet.github.io/components/popover/): NeoBrutal Rivet Popover component preview, contract, accessibility, and LLM guidance.
+- [Progress](https://neobrutalrivet.github.io/components/progress/): NeoBrutal Rivet Progress component preview, contract, accessibility, and LLM guidance.
+- [Radio Group](https://neobrutalrivet.github.io/components/radio-group/): NeoBrutal Rivet Radio Group component preview, contract, accessibility, and LLM guidance.
+- [Resizable](https://neobrutalrivet.github.io/components/resizable/): NeoBrutal Rivet Resizable component preview, contract, accessibility, and LLM guidance.
+- [Scroll Area](https://neobrutalrivet.github.io/components/scroll-area/): NeoBrutal Rivet Scroll Area component preview, contract, accessibility, and LLM guidance.
+- [Select](https://neobrutalrivet.github.io/components/select/): NeoBrutal Rivet Select component preview, contract, accessibility, and LLM guidance.
+- [Separator](https://neobrutalrivet.github.io/components/separator/): NeoBrutal Rivet Separator component preview, contract, accessibility, and LLM guidance.
+- [Sheet](https://neobrutalrivet.github.io/components/sheet/): NeoBrutal Rivet Sheet component preview, contract, accessibility, and LLM guidance.
+- [Sidebar](https://neobrutalrivet.github.io/components/sidebar/): NeoBrutal Rivet Sidebar component preview, contract, accessibility, and LLM guidance.
+- [Skeleton](https://neobrutalrivet.github.io/components/skeleton/): NeoBrutal Rivet Skeleton component preview, contract, accessibility, and LLM guidance.
+- [Slider](https://neobrutalrivet.github.io/components/slider/): NeoBrutal Rivet Slider component preview, contract, accessibility, and LLM guidance.
+- [Sonner](https://neobrutalrivet.github.io/components/sonner/): NeoBrutal Rivet Sonner component preview, contract, accessibility, and LLM guidance.
+- [Spinner](https://neobrutalrivet.github.io/components/spinner/): NeoBrutal Rivet Spinner component preview, contract, accessibility, and LLM guidance.
+- [Switch](https://neobrutalrivet.github.io/components/switch/): NeoBrutal Rivet Switch component preview, contract, accessibility, and LLM guidance.
+- [Table](https://neobrutalrivet.github.io/components/table/): NeoBrutal Rivet Table component preview, contract, accessibility, and LLM guidance.
+- [Tabs](https://neobrutalrivet.github.io/components/tabs/): NeoBrutal Rivet Tabs component preview, contract, accessibility, and LLM guidance.
+- [Textarea](https://neobrutalrivet.github.io/components/textarea/): NeoBrutal Rivet Textarea component preview, contract, accessibility, and LLM guidance.
+- [Toggle Group](https://neobrutalrivet.github.io/components/toggle-group/): NeoBrutal Rivet Toggle Group component preview, contract, accessibility, and LLM guidance.
+- [Toggle](https://neobrutalrivet.github.io/components/toggle/): NeoBrutal Rivet Toggle component preview, contract, accessibility, and LLM guidance.
+- [Tooltip](https://neobrutalrivet.github.io/components/tooltip/): NeoBrutal Rivet Tooltip component preview, contract, accessibility, and LLM guidance.
+
+## Technical references
+- [Foundations](https://github.com/NeoBrutalRivet/NeoBrutal-Rivet/blob/main/docs/FOUNDATIONS.md): Tokens, themes, fluid sizing, motion, and visual rules.
+- [Registry JSON](https://raw.githubusercontent.com/NeoBrutalRivet/NeoBrutal-Rivet/main/registry/manifest.json): Raw machine-readable registry.
+- [Component source directory](https://github.com/NeoBrutalRivet/NeoBrutal-Rivet/tree/main/components/ui): React/TypeScript component sources.
