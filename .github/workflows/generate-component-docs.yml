@@ -1,0 +1,29 @@
+name: Generate component docs
+on:
+  push:
+    branches: [main]
+    paths:
+      - component-template.html
+      - scripts/generate_component_docs.py
+      - .github/workflows/generate-component-docs.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Generate routes
+        run: python scripts/generate_component_docs.py
+      - name: Commit generated docs
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "No generated changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add components docs-linker.js index.html sitemap.xml
+          git commit -m "Generate component documentation routes"
+          git push
