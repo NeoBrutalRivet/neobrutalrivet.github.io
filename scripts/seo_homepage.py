@@ -8,11 +8,18 @@ text = index.read_text()
 
 TITLE = 'NeoBrutal Rivet — Neo-Brutalism UI Design System for React'
 DESCRIPTION = 'NeoBrutal Rivet is a neo-brutalist React UI design system with 61 live component previews, semantic tokens, dark mode, accessibility and LLM-readable docs.'
+GOOGLE_SITE_VERIFICATION = 'Y9BIz_xiwAcuRk1SC3dFEihmkj9agHNOU95ebe_-aMc'
 
 text = re.sub(r'<title>.*?</title>', f'<title>{TITLE}</title>', text, count=1)
 text = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{DESCRIPTION}">', text, count=1)
 text = re.sub(r'<meta property="og:title" content="[^"]*">', f'<meta property="og:title" content="{TITLE}">', text, count=1)
 text = re.sub(r'<meta property="og:description" content="[^"]*">', f'<meta property="og:description" content="{DESCRIPTION}">', text, count=1)
+
+verification_tag = f'<meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">'
+if re.search(r'<meta name="google-site-verification" content="[^"]*">', text):
+    text = re.sub(r'<meta name="google-site-verification" content="[^"]*">', verification_tag, text, count=1)
+else:
+    text = text.replace(f'<meta name="description" content="{DESCRIPTION}">', f'<meta name="description" content="{DESCRIPTION}">\n{verification_tag}', 1)
 
 if 'name="robots"' not in text:
     text = text.replace('<meta name="theme-color"', '<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">\n<meta name="theme-color"', 1)
